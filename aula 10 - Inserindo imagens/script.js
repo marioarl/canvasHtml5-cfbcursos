@@ -21,10 +21,19 @@ nave.onload = ()=>{
 }
 
 let cores = new Image()
-cores.src="cores2.jpg"
+cores.src="cores.png"
 cores.addEventListener('load', ()=>{
-    ctx.drawImage(cores,100,0,50,50)
+    ctx.drawImage(cores,600,0,50,50,0,0,100,50)
 })
+/*
+Para alterar a cor de acordo com a imagem acima do canvas, temos que alterar o 2o. parametro do drawImage
+0 - azul
+200 - verde
+400 - vermelho
+600 - amarelo
+*/
+
+
 
 /*
 Ou pode utilizar o addEventListener

@@ -28,7 +28,7 @@ let anima = setInterval(()=>{
         numSprite = 0
     posIniX = largSprite * numSprite
     ctx.drawImage(cores,posIniX,0,largSprite,50,0,0,50,50)
-},1000)
+},2000)
 
 
  

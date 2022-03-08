@@ -19,7 +19,7 @@ cores.addEventListener('load', ()=>{
     limagem = cores.width
     largSprite = limagem / numSprites
     posIniX = largSprite * numSprite //Numero do sprite
-    ctx.drawImage(cores,posIniX,0,largSprite,50,0,0,100,50)
+    ctx.drawImage(cores,posIniX,0,largSprite,50,0,0,50,50)
 })
 
 let anima = setInterval(()=>{
@@ -27,7 +27,7 @@ let anima = setInterval(()=>{
     if(numSprite > 3)
         numSprite = 0
     posIniX = largSprite * numSprite
-    ctx.drawImage(cores,posIniX,0,largSprite,50,0,0,100,50)
+    ctx.drawImage(cores,posIniX,0,largSprite,50,0,0,50,50)
 },1000)
 
 

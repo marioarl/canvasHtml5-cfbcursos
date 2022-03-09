@@ -12,11 +12,12 @@ let cores = new Image()
 cores.src="cores.png"
 let numSprite = 0
 let posIniX = 0
-let limagem = 0
+let limagem = 0 
 let largSprite = 0
 let numSprites = 4
 cores.addEventListener('load', ()=>{
     limagem = cores.width
+    console.log(limagem)
     largSprite = limagem / numSprites
     posIniX = largSprite * numSprite //Numero do sprite
     ctx.drawImage(cores,posIniX,0,largSprite,50,0,0,50,50)

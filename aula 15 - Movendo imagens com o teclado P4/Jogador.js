@@ -6,7 +6,7 @@ class Jogador{
         this.y=0
         this.vel=3
         this.ogro=new Image()
-        this.ogro.src="nave.jpg"
+        this.ogro.src="nave2.png"
         this.ogro.addEventListener('load', ()=>{
             this.desenhar()
         })

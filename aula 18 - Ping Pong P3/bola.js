@@ -33,7 +33,7 @@ class Bola{
                 (this.x <= this.jogador.x + this.jogador.largura && this.x+this.largura >= this.jogador.x) &&
                 (this.y+this.altura >= this.jogador.y && this.y <= this.jogador.y + this.jogador.altura))
                 {
-                    this.dirx*=-1
+                    this.dirx*=-1//Se não quiser que a bolinha tenha colisao traseira do jogador, basta colocar this.dirx = 1
             }
         }
     }

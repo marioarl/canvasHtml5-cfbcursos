@@ -42,8 +42,6 @@ nave.addEventListener('load', ()=>{
     ctx.drawImage(nave,0,0)
 })
 */
-
-
 //Indicando o tamanho nos parametros do drawImage
 /*
 nave.onload = ()=>{

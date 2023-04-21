@@ -33,8 +33,6 @@ Para alterar a cor de acordo com a imagem acima do canvas, temos que alterar o 2
 600 - amarelo
 */
 
-
-
 /*
 Ou pode utilizar o addEventListener
 

@@ -7,7 +7,7 @@ let anima
 let l_ret=a_ret=50
 let l_canvas=a_canvas=500
 
-function desenha() {
+function desenha() {//Funcao para desenhar o canvas
     ctx.clearRect(0,0,l_canvas,a_canvas)    
 
     ctx.fillStyle='#f00'

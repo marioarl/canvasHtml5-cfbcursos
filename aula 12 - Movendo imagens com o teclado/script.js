@@ -30,7 +30,7 @@ let anima = setInterval(()=>{
 //Adicionar evento para tecla
 
 window.addEventListener('keydown', (event)=>{
-    if(event.keyCode == 37){ //Esquerda
+    if(event.keyCode == 37){ //Esquerda , KeyCOde
         posX -= velocidade
     }else if (event.keyCode == 39){ //Direita
         posX += velocidade

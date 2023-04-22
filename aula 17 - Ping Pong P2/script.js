@@ -27,7 +27,7 @@ window.addEventListener('keydown', (event)=>{
 })
 
 window.addEventListener('keyup', (event)=>{
-    if(event.keyCode == 37){ //Esquerda
+    if(event.keyCode == 37){ //Esquerda Keycode
         teclado.esquerda = false
     }else if (event.keyCode == 39){ //Direita
         teclado.direita = false

@@ -14,7 +14,7 @@ const bola = new Bola(ctx, jogador)
 const cpu = new Cpu(ctx, bola)
 
 window.addEventListener('keydown', (event)=>{
-    if(event.keyCode == 37){ //Esquerda
+    if(event.keyCode == 37){ //Esquerda Keycode
         teclado.esquerda = true
     }else if (event.keyCode == 39){ //Direita
         teclado.direita = true

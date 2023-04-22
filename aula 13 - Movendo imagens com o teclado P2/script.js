@@ -43,7 +43,7 @@ let desenha=()=>{
 window.addEventListener('keydown', (event)=>{
     if(event.keyCode == 37){ //Esquerda
         esquerda = true
-    }else if (event.keyCode == 39){ //Direita
+    }else if (event.keyCode == 39){ //Direita Keycode
         direita = true
     }
 

@@ -68,7 +68,7 @@ window.addEventListener('keyup', (event)=>{
     }
 })
 
-//Funcao para verificar o valores destas variaveis e atualizar a posicao
+//Funcao para verificar os valores das variaveis e atualizar a posicao
 
 const game=()=>{
     if(cima){

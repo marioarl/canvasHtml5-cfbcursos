@@ -11,7 +11,7 @@ class Pad{
 
     gerenciar(){
         if(this.teclado.esquerda){
-            if(this.x > 0) //Limitador do tamanho do canvas em relacao a movimentacao do joagador
+            if(this.x > 0) //Limitador do tamanho do canvas em relacao ao movimento do joagador
                 this.x-=this.vel
         }
         if(this.teclado.direita){
